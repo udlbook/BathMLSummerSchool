@@ -1,0 +1,35 @@
+Deblina Bhattachargee
+
+Deblina Bhattachargee am an interdisciplinary AI researcher, currently an Assistant Professor at the University of Bath. My work bridges Computer Vision with Arts, developing AI-driven solutions for creative domains. My research focuses on generative models, 3D reconstruction, multimodal large language models, depth estimation, visual saliency, and multitask learning, aiming to push the boundaries of AI integration into society. 
+
+She is  passionate about Cognitive Systems & AI Ethics, exploring how AI interacts with human cognition and understanding its ethical and societal impacts. My goal is to develop AI systems that are responsible and inclusive. She has recently been awarded three prestigious fellowships: Perplexity AI Business Fellowship (international), Elevate Leadership Fellowship (UK-wide recognition) and Impact and Knowledge Exchange Fellowship. 
+
+
+Gabriel Brostow
+
+Gabriel Brostow is a Professor of Computer Science at University College London (UCL) Until recently, he was also the Chief Research Scientist and Senior Director at Niantic (the company behind Pokémon GO). His research focuses on Human-Centered AI, which sits at the intersection of Computer Vision and Human-Computer Interaction (HCI). His work often aims to create "super-tools" that amplify human abilities, ranging from assistive technologies for daily life to advanced systems for architects, filmmakers, and roboticists.
+
+
+Neill Campbell
+
+Neill Campbell is a Professor of Visual Computing and Machine Learning in  Department of Computer Science at University College London working on Computer Vision, Computer Graphics, Inverse Problems and Machine Learning. He is a former Royal Society Industry Fellow and retain an affiliation with the Department of Computer Science at the University of Bath.
+
+His main area of research involves learning models of shape (2D and 3D), appearance and dynamics from images. In particular, he is interested in performing this in an automatic or interactive fashion that allows these technologies to be put to use in a variety of applications without requiring users to have computer vision or graphics expertise. He is also interested in machine learning problems where data are scarce or expensive to obtain (e.g. annotations from expert clinicians) and when uncertainty in the resulting output is important (e.g. medical applications). This has led to work on unsupervised (or semi-supervised) learning with Bayesian non-parametric models, in particular Gaussian processes. 
+
+Oisin Mac Aodha
+
+Oisin Mac Aodha is a reader in Machine Learning in the School of Informatics at the University of Edinburgh.  His research interests are in the areas of machine learning and computer vision. He is particularly interested in questions related to human-in-the-loop machine learning with the aim of creating next-generation methods that make use of the complementary strengths of humans and machines. In addition, he is interested in problems such as representation learning, 3D understanding, and AI for climate, conservation, and biodiversity monitoring. 
+
+
+Simon Prince
+
+Simon Prince is an Honorary Professor of Computer Science at the University of Bath.  He was previously tenured faculty at University College London (UCL) before moving into industry where he led research teams at Borealis AI (the AI research lab for the Royal Bank of Canada) and Anthropics Technologies Ltd.  He is the author of two influential textbooks:  Understanding Deep Learning (The MIT Press, 2023), and Computer Vision: Models, Learning, and Inference (Cambridge University Press, 2012).
+
+
+Ivor Simpson
+
+Ivor Simpson is an Associate Professor in Artificial Intelligence within the AI research group in the department of Informatics. I am also the Academic Lead for Sussex AI and the convenor of the MRes in Advanced Artificial Intelligence.
+ 
+His research focuses on the development of novel machine learning and statistical inference methodologies applied to imaging and temporal data, with a particular interest in applications in medical image analysis, computer vision and ecological monitoring. Our team aims to create methods that reliably characterise the uncertainty in predictions, require fewer labelled data, and offer a greater degree of interpretability than classic deep learning approaches. 
+
+
