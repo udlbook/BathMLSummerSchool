@@ -301,7 +301,7 @@ body {
   font-weight: 400;
   font-style: italic;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(196, 137, 28, 0.35);
+  -webkit-text-stroke: 1.5px rgba(232, 168, 48, 0.75);
   line-height: 0.9;
   margin-bottom: -0.5rem;
   user-select: none;

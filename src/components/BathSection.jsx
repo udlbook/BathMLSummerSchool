@@ -43,7 +43,7 @@ export default function BathSection() {
       <div className="bath__image-wrap">
         <img
           className="bath__image"
-          src="/BathCityPicture.jpg"
+          src={`${import.meta.env.BASE_URL}BathCityPicture.jpg`}
           alt="Aerial view of Bath city centre showing Georgian architecture and the River Avon"
         />
         <div className="bath__image-overlay" aria-hidden="true" />

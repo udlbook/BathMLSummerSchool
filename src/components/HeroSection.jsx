@@ -24,23 +24,23 @@ function HeroGraphic() {
     <div className="hero__graphic" aria-hidden="true">
       <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="presentation">
         {/* Rings */}
-        <circle cx="150" cy="150" r="140" fill="none" stroke="rgba(196,137,28,0.14)" strokeWidth="1" />
-        <circle cx="150" cy="150" r="115" fill="none" stroke="rgba(196,137,28,0.09)" strokeWidth="1" />
-        <circle cx="150" cy="150" r="90"  fill="none" stroke="rgba(196,137,28,0.07)" strokeWidth="1" />
+        <circle cx="150" cy="150" r="140" fill="none" stroke="rgba(232,168,48,0.45)" strokeWidth="1" />
+        <circle cx="150" cy="150" r="115" fill="none" stroke="rgba(232,168,48,0.30)" strokeWidth="1" />
+        <circle cx="150" cy="150" r="90"  fill="none" stroke="rgba(232,168,48,0.22)" strokeWidth="1" />
 
         {/* Tick marks */}
         {ticks.map((t, i) => (
           <line
             key={i}
             x1={t.x1} y1={t.y1} x2={t.x2} y2={t.y2}
-            stroke="rgba(196,137,28,0.22)"
+            stroke="rgba(232,168,48,0.55)"
             strokeWidth={i % 9 === 0 ? 1.5 : 0.75}
           />
         ))}
 
         {/* Cardinal dots */}
         {[[150, 10], [290, 150], [150, 290], [10, 150]].map(([cx, cy], i) => (
-          <circle key={i} cx={cx} cy={cy} r="3" fill="rgba(196,137,28,0.55)" />
+          <circle key={i} cx={cx} cy={cy} r="3" fill="rgba(232,168,48,0.9)" />
         ))}
 
         {/* Year watermark */}
@@ -50,7 +50,7 @@ function HeroGraphic() {
           fontFamily="Cormorant Garant, Georgia, serif"
           fontSize="48"
           fontWeight="600"
-          fill="rgba(196,137,28,0.18)"
+          fill="rgba(232,168,48,0.55)"
         >
           2026
         </text>
@@ -60,7 +60,7 @@ function HeroGraphic() {
           fontFamily="Outfit, sans-serif"
           fontSize="7.5"
           fontWeight="500"
-          fill="rgba(255,255,255,0.18)"
+          fill="rgba(255,255,255,0.5)"
           letterSpacing="5"
         >
           BATH · ML
@@ -76,7 +76,7 @@ function HeroGraphic() {
         <text
           fontFamily="Outfit, sans-serif"
           fontSize="7.5"
-          fill="rgba(255,255,255,0.17)"
+          fill="rgba(255,255,255,0.48)"
           letterSpacing="6.5"
         >
           <textPath href="#seal-path" startOffset="2%">
