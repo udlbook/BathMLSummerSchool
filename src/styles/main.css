@@ -719,6 +719,176 @@ body {
 
 
 /* ======================================================
+   REGISTRATION SECTION
+   ====================================================== */
+.registration {
+  padding: 7rem 0;
+  background: var(--cream-alt);
+}
+
+.registration__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 5rem;
+  margin-bottom: 4rem;
+}
+@media (max-width: 760px) {
+  .registration__body { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+
+.registration__subheading {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 1.25rem;
+}
+
+/* Eligibility list */
+.registration__eligibility-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+.registration__eligibility-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-mid);
+}
+.registration__check {
+  flex-shrink: 0;
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 50%;
+  background: rgba(196, 137, 28, 0.12);
+  border: 1px solid rgba(196, 137, 28, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  color: var(--gold);
+  font-weight: 700;
+  margin-top: 0.125rem;
+}
+.registration__contact {
+  font-size: 0.875rem;
+  color: var(--text-mid);
+  margin-top: 0.25rem;
+}
+.registration__email-link {
+  color: var(--gold);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.registration__email-link:hover { color: var(--navy); }
+
+/* Costs text */
+.registration__costs-text {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: var(--text-mid);
+}
+
+/* Pricing cards */
+.registration__pricing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 780px;
+}
+@media (max-width: 600px) {
+  .registration__pricing { grid-template-columns: 1fr; }
+}
+
+.price-card {
+  padding: 2.25rem 2rem;
+  border-radius: 3px;
+  border: 1px solid var(--stone);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s var(--ease-smooth);
+}
+.price-card:hover {
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+.price-card--featured {
+  border-color: rgba(196, 137, 28, 0.45);
+  background: linear-gradient(160deg, #fffbf3 0%, white 60%);
+}
+
+.price-card__badge {
+  position: absolute;
+  top: -0.875rem;
+  left: 1.75rem;
+  padding: 0.25rem 0.875rem;
+  background: var(--gold);
+  color: white;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.price-card__label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-mid);
+}
+.price-card--featured .price-card__label { color: var(--gold); }
+
+.price-card__amount {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1;
+}
+
+.price-card__description {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--text-mid);
+  flex: 1;
+}
+
+/* Outline button variant for light backgrounds */
+.btn--outline-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 2rem;
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.25s ease;
+  background: transparent;
+  color: var(--navy);
+  border: 1px solid rgba(13, 27, 42, 0.3);
+}
+.btn--outline-dark:hover {
+  background: var(--navy);
+  color: white;
+  border-color: var(--navy);
+  transform: translateY(-2px);
+}
+
+
+/* ======================================================
    BATH SECTION
    ====================================================== */
 .bath {

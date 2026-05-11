@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react'
 
 const NAV_LINKS = [
-  { href: '#about',     label: 'About' },
-  { href: '#programme', label: 'Programme' },
-  { href: '#speakers',  label: 'Speakers' },
-  { href: '#bath',      label: 'Visit Bath' },
+  { href: '#about',        label: 'About' },
+  { href: '#programme',    label: 'Programme' },
+  { href: '#speakers',     label: 'Speakers' },
+  { href: '#registration', label: 'Register' },
+  { href: '#bath',         label: 'Visit Bath' },
 ]
 
 export default function Navbar() {
@@ -49,11 +50,9 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="http://bathmlsummerschool.com"
+              href="#registration"
               className="navbar__register"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setMenuOpen(false)}
+              onClick={handleLinkClick}
             >
               Register
             </a>
