@@ -132,8 +132,26 @@ body {
   color: white;
   letter-spacing: 0.03em;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 .navbar__logo span { color: var(--gold-light); }
+
+.navbar__uob-logo {
+  height: 26px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+.navbar__logo-sep {
+  display: block;
+  width: 1px;
+  height: 1.125rem;
+  background: rgba(255, 255, 255, 0.2);
+  flex-shrink: 0;
+}
 
 .navbar__nav {
   display: flex;
@@ -273,6 +291,18 @@ body {
 @keyframes hero-fade-up {
   from { opacity: 0; transform: translateY(1.75rem); }
   to   { opacity: 1; transform: none; }
+}
+
+.hero__institution {
+  margin-bottom: 1.5rem;
+  animation: hero-fade-up 0.7s var(--ease-smooth) 0.05s both;
+}
+
+.hero__uob-logo {
+  height: 78px;
+  width: auto;
+  display: block;
+  opacity: 0.92;
 }
 
 .hero__label {
@@ -442,6 +472,7 @@ body {
     text-align: center;
     padding-bottom: 4rem;
   }
+  .hero__institution { display: flex; justify-content: center; }
   .hero__label { justify-content: center; }
   .hero__description { margin-left: auto; margin-right: auto; }
   .hero__meta { justify-content: center; }

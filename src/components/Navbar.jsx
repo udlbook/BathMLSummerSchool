@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react'
 
+const BASE = import.meta.env.BASE_URL
+
 const NAV_LINKS = [
   { href: '#about',        label: 'About' },
   { href: '#programme',    label: 'Programme' },
   { href: '#speakers',     label: 'Speakers' },
-  { href: '#registration', label: 'Register' },
   { href: '#bath',         label: 'Visit Bath' },
 ]
 
@@ -36,6 +37,12 @@ export default function Navbar() {
   return (
     <header className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
       <a href="#about" className="navbar__logo" onClick={handleLinkClick}>
+        {/* <img
+          src={`${BASE}Uni of Bath logo (white).png`}
+          alt="University of Bath"
+          className="navbar__uob-logo"
+        /> */}
+        <span className="navbar__logo-sep" aria-hidden="true" />
         Bath <span>ML</span>
       </a>
 

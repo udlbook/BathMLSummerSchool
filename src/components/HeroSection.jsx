@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL
+
 const TOPICS = [
   'ODEs & SDEs in ML',
   'Probabilistic & Bayesian Methods',
@@ -94,7 +96,14 @@ export default function HeroSection() {
       <div className="hero__container">
         {/* Left: Content */}
         <div>
-          <p className="hero__label">University of Bath</p>
+          <div className="hero__institution">
+          <img
+            src={`${BASE}Uni of Bath logo (white).png`}
+            alt="University of Bath"
+            className="hero__uob-logo"
+          />
+        </div>
+        <p className="hero__label">Centre for Artificial Intelligence</p>
 
           <div className="hero__ordinal" aria-hidden="true">1<sup style={{ fontSize: '0.45em', verticalAlign: 'super' }}>st</sup></div>
 
