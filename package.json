@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://udlbook.github.io/BathMLSummerSchool",
+  "homepage": "https://www.bathmlsummerschool.org",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
