@@ -13,7 +13,7 @@ const PRICES = [
   {
     label: 'Without Accommodation',
     amount: '£150',
-    description: 'Registration only. Tea and coffee included throughout.',
+    description: 'Registration only.',
     featured: false,
   },
   {

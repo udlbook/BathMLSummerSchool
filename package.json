@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://www.bathmlsummerschool.org",
+  "homepage": "[https://www.bathmlsummerschool.org](https://www.bathmlsummerschool.org)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
