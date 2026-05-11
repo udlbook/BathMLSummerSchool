@@ -123,7 +123,7 @@ export default function HeroSection() {
             </span>
             <span className="hero__badge">
               <span className="hero__badge-icon">🎓</span>
-              Open to UK PhD Students
+              Open to UK/EU PhDs and Postdocs
             </span>
           </div>
 
@@ -144,11 +144,13 @@ export default function HeroSection() {
 
           <div className="hero__actions">
             <a
-              href="http://bathmlsummerschool.com"
+              href="#registration"
               className="btn btn--primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+              onClick={e => {
+                e.preventDefault()
+                const el = document.querySelector('#registration')
+                if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' })
+              }}>            
               Register Now
             </a>
             <a href="#programme" className="btn btn--outline" onClick={e => {

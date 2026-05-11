@@ -239,6 +239,7 @@ export default function ProgrammeSection() {
           <p className="section-eyebrow">Schedule</p>
           <h2 className="section-title">Programme</h2>
           <div className="section-rule" />
+          <p className="section-note">(subject to change)</p>
         </div>
 
         <div className="programme__tabs" role="tablist" aria-label="Programme days">

@@ -57,7 +57,7 @@ export default function RegistrationSection() {
             <p className="registration__contact">
               Unsure whether you&rsquo;re eligible?{' '}
               <a href="mailto:drsjdprince@gmail.com" className="registration__email-link">
-                drsjdprince@gmail.com
+                Contact us.
               </a>
             </p>
           </div>

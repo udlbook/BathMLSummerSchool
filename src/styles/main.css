@@ -103,6 +103,13 @@ body {
   margin: 1.25rem auto 0;
 }
 
+.section-note {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--gold, #888);
+  font-style: italic;
+}
+
 
 /* ======================================================
    NAVBAR
@@ -118,11 +125,21 @@ body {
   transition: background 0.4s ease, padding 0.35s ease, box-shadow 0.4s ease;
 }
 .navbar--scrolled {
+  padding: 1rem 2.5rem;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* backdrop-filter lives here so it never creates a containing block for the
+   fixed-position mobile nav overlay */
+.navbar--scrolled::before {
+  content: '';
+  position: absolute;
+  inset: 0;
   background: rgba(12, 25, 40, 0.96);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  padding: 1rem 2.5rem;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .navbar__logo {
