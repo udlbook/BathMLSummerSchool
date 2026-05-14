@@ -20,7 +20,7 @@ const PRICES = [
     label: 'With Accommodation',
     amount: '£320',
     description:
-      'Registration plus three nights in University halls (Wed 6th – Sat 9th Aug). Limited places — register promptly if you want this option.',
+      'Registration plus three nights in University halls (Wed 5th – Sat 8th Aug). Limited places — register promptly if you want this option.',
     featured: true,
   },
 ]

@@ -68,7 +68,7 @@ const DAYS = [
       {
         type: 'talk',
         time: '12:00 – 1:00 pm',
-        title: 'Probability and Uncertainty in Machine Learning',
+        title: 'Foundations of Probabilistic ML',
         speaker: 'Neill Campbell',
         institution: 'University College London',
         topics: [
@@ -84,7 +84,7 @@ const DAYS = [
       {
         type: 'talk',
         time: '2:00 – 3:30 pm',
-        title: 'Probability and Uncertainty in Machine Learning (cont.)',
+        title: 'Foundations of Probabilistic ML (cont.)',
         speaker: 'Neill Campbell',
         institution: 'University College London',
         topics: [],
@@ -93,16 +93,16 @@ const DAYS = [
       {
         type: 'talk',
         time: '4:00 – 5:00 pm',
-        title: 'Probabilistic ML and Uncertainty Estimation',
+        title: 'Applied Bayesian Deep Learning',
         speaker: 'Ivor Simpson',
         institution: 'University of Sussex',
         topics: [
           'Reducible (epistemic) vs irreducible (aleatoric) uncertainty',
           'Bayesian neural networks — ensembles, dropout, variational, sampling',
-          'Efficient inference of uncertainty',
+          ' ⁠Bayesian approaches for neural networks',
           'Calibration and robustness',
-          'Evidential learning',
-          'Case studies in medical imaging',
+          'Efficient inference of uncertainty',
+          '⁠Real-world impact: Why uncertainty quantification is critical for medical imaging',
         ],
       },
     ],
