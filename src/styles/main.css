@@ -911,6 +911,14 @@ body {
   flex: 1;
 }
 
+.price-card__note {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--gold);
+}
+
 /* Outline button variant for light backgrounds */
 .btn--outline-dark {
   display: inline-flex;

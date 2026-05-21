@@ -19,8 +19,8 @@ const PRICES = [
   {
     label: 'With Accommodation',
     amount: '£320',
-    description:
-      'Registration plus three nights in University halls (Wed 5th – Sat 8th Aug). Limited places — register promptly if you want this option.',
+    description: 'Registration plus three nights in University halls (Wed 5th – Sat 8th Aug).',
+    note: 'Availability very limited.  Register promptly to secure your place.',
     featured: true,
   },
 ]
@@ -86,7 +86,12 @@ export default function RegistrationSection() {
               )}
               <p className="price-card__label">{price.label}</p>
               <p className="price-card__amount">{price.amount}</p>
-              <p className="price-card__description">{price.description}</p>
+              <p className="price-card__description">
+                {price.description}
+                {price.note && (
+                  <span className="price-card__note">{price.note}</span>
+                )}
+              </p>
               <a
                 href={REGISTER_URL}
                 className={`btn${price.featured ? ' btn--primary' : ' btn--outline-dark'}`}
