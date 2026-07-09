@@ -20,7 +20,7 @@ const PRICES = [
     label: 'With Accommodation',
     amount: '£320',
     description: 'Registration plus three nights in University halls (Wed 5th – Sat 8th Aug).',
-    note: 'Availability very limited.  Register promptly to secure your place.',
+    note: '01 June 2026 - More rooms now available.',
     featured: true,
   },
 ]
@@ -69,7 +69,9 @@ export default function RegistrationSection() {
               We have endeavoured to keep costs as low as possible. Tea and coffee are
               included throughout; meals are at your own expense. There are many
               accommodation options available in Bath and nearby Bristol in addition to
-              the university halls package below.
+              the university halls package below.<br/><br/>
+
+              All sales are final. No refunds will be issued for cancellations or no-shows.
             </p>
           </div>
         </div>
